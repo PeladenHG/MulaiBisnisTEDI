@@ -155,7 +155,8 @@ def analyze_business_proposal(pdf_file):
         # Inisialisasi LLM
         llm = ChatGroq(
             temperature=0.72,
-            model_name="meta-llama/llama-4-scout-17b-16e-instruct",
+            model_name="llama-3.3-70b-versatile",
+            # model_name="meta-llama/llama-4-scout-17b-16e-instruct",
             max_tokens=4096 # Meningkatkan token untuk analisis komprehensif
         )
 
